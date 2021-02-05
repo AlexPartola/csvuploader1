@@ -14,7 +14,7 @@
 	<name>csvuploader1</name>
 	<description>Demo project for upload</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>14</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

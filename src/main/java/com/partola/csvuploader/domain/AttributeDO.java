@@ -5,11 +5,13 @@ import lombok.Data;
 @Data
 public class AttributeDO {
 	
-	String id;
+	private String id;
 	
-	String name;
+	private String name;
 	
-	String value;
+	private String value;
 	
-	Integer counter;
+	private Integer counter;
+	
+	private Integer additionalField;
 }

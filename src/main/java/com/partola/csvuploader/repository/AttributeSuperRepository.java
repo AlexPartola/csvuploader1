@@ -13,8 +13,20 @@ public class AttributeSuperRepository implements SuperRepository<AttributeDO> {
 	}
 	
 	@Override
-	public AttributeDO put(AttributeDO attributeDO) {
-		System.out.println("putting into repository");
+	public AttributeDO create(AttributeDO attributeDO) {
+		System.out.println("creating in repository");
+		return attributeDO;
+	}
+	
+	@Override
+	public AttributeDO update(AttributeDO attributeDO) {
+		System.out.println("updating in repository");
+		return attributeDO;
+	}
+	
+	@Override
+	public AttributeDO delete(AttributeDO attributeDO) {
+		System.out.println("deleting from repository");
 		return attributeDO;
 	}
 }
