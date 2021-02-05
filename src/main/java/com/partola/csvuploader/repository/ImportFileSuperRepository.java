@@ -8,13 +8,25 @@ public class ImportFileSuperRepository implements SuperRepository<ImportFileDO> 
 	
 	@Override
 	public ImportFileDO get(String id) {
-		System.out.println("putting into repository");
+		System.out.println("getting from repository");
 		return null;
 	}
 	
 	@Override
-	public ImportFileDO put(ImportFileDO attributeDO) {
-		System.out.println("putting into repository");
+	public ImportFileDO create(ImportFileDO attributeDO) {
+		System.out.println("creating in repository");
 		return attributeDO;
+	}
+	
+	@Override
+	public ImportFileDO update(ImportFileDO attributeDO) {
+		System.out.println("updating in repository");
+		return null;
+	}
+	
+	@Override
+	public ImportFileDO delete(ImportFileDO attributeDO) {
+		System.out.println("deleting from repository");
+		return null;
 	}
 }

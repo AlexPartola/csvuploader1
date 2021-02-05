@@ -4,5 +4,9 @@ public interface SuperRepository<T> {
 	
 	T get(String id);
 	
-	T put(T attributeDO);
+	T create(T attributeDO);
+	
+	T update(T attributeDO);
+	
+	T delete(T attributeDO);
 }
